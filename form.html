@@ -1,0 +1,354 @@
+
+<script type="text/javascript">
+
+function valid()
+
+{
+ var msg="invalid";
+ var s=document.simple.fname.value;
+ var n=/^[A-Z]+[A-Z]$/;
+ if (!n.test(s))
+ { 
+   msg+="name,";
+  document.simple.fname.focus();
+   alert('invalid FNAME');
+ }
+ else
+ {
+   alert('valid FNAME');
+ }
+ 
+ var s=document.simple.lname.value;
+ var n=/^[A-Z]+[A-Z]$/;
+ if (!n.test(s))
+ { 
+   msg+="name,";
+  document.simple.lname.focus();
+   alert('invalid LNAME');
+ }
+ else
+ {
+   alert('valid LNAME');
+ }
+ 
+ if((document.simple.sex[0].checked==false)&&(document.simple.sex[1].checked==false))
+ {
+   alert('invalid gender');
+ }
+ else
+ {
+   alert('valid GENDER');
+ }
+ 
+ if((document.simple.marital[0].checked==false)&&(document.simple.marital[1].checked==false))
+ {
+   alert('invalid marital status');
+ }
+ else
+ {
+   alert('valid marital status');
+ }
+ 
+ var s=document.simple.mob.value;
+ var n=/^[0-9]{10}$/;
+ if (!n.test(s))
+ { 
+   
+   alert('invalid ph.no');
+ }
+ else
+ {
+   alert('valid ph.no');
+ }
+
+ var s=document.simple.address.value;
+ var n=/^[a-zA-Z0-9\.\/\s,]+[a-zA-Z0-9]$/;
+ if (!n.test(s))
+ { 
+   
+   alert('invalid address');
+ }
+ else
+ {
+   alert('valid address');
+ }
+ 
+ var s=document.simple.age.value;
+ var n=/^[0-9]{2}$/;
+ if (!n.test(s))
+ { 
+   
+   alert('invalid age');
+ }
+ else
+ {
+   alert('valid age');
+ }
+ 
+ var s=document.simple.national.value;
+ var n=/^[A-Za-z]+[a-z]$/;
+ if (!n.test(s))
+ { 
+   
+   alert('invalid nationality');
+ }
+ else
+ {
+   alert('valid nationality');
+ }
+ 
+ var s=document.simple.email.value;
+ var n=/^[a-zA-Z0-9.-_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+ if (!n.test(s))
+ { 
+   
+   alert('invalid email');
+ }
+ else
+ {
+   alert('valid email');
+ }
+ 
+ if((document.simple.item[0].checked==false)&&(document.simple.item[1].checked==false)&&(document.simple.item[2].checked==false))
+  {
+   alert('invalid item');
+  }
+ else
+ {
+   alert('valid item');
+ }
+ 
+ var s=document.simple.pay.selectedindex;
+ if(d.match("cash")||("e-bill"))
+ {
+   alert('invalid selection');
+  }
+ else
+ {
+   alert('valid selection');
+ }
+
+}
+
+</script>
+
+<style>
+
+h2.run
+{ 
+ color:black;
+ background-color:lightgrey;
+}
+
+h2.second
+{ 
+ color:black;
+ }
+
+
+nav
+{
+ background-color:black;
+ color:white;
+ padding:20px;
+}
+
+li,h1.third,ul
+{
+ display:inline;
+}
+
+</style>
+
+<body style="background-color:rgb(240, 240, 240)"></body>
+
+<form name="simple" align="center">
+
+<center>
+<h1  style="text-align:center">ORDER BOOKING FORM</h1>
+
+<table width=100% bgcolor="lightyellow">
+<tr><tr>
+ <td>
+ <fieldset>
+<table>
+ <center><img src="logo1.jpg" height="90" width="200"></img><br></center>
+<tr>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td><a href="abtmu.html"><h2 class="second"><b> ABOUT US</b></h2></a></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td><a href="pro.html"><h2 class="second"><b>PRODUCTS</b></h2></td></a>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+<td><a href="tip.html"><h2 class="second"><b>TIPS</b></h2></td></a>
+
+ </td>
+</tr>
+</center>
+
+<hr></hr>
+ <h2 class="run"><marquee behavior = "scroll" direction="left"><b>BOOKING OPENS NOW</b></marquee></h2>
+<center>
+
+<tr>
+  <td><b>FIRST NAME : </b></td>
+  <td><input type="text" name="fname" placeholder="FIRSTNAME"></td>
+<tr>
+  <td><b>LAST NAME : </b></td>
+  <td><input type="text" name="lname" placeholder="LASTNAME"></td>
+<tr>
+<tr></tr>
+<tr>
+  <td><b>GENDER :</b></td>  
+  <td><input type="radio" name="sex" value ="male">MALE<input type="radio" name="sex" value ="female"/>FEMALE</td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>MARITAL STATUS :</b></td>
+  <td><input type="radio" name="marital" value="married">MARRIED<input type="radio" name="marital" value="single"/>SINGLE</td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>MOBILE NO :</b></td>
+  <td><input type="text" name="mob" placeholder="MOBILE NO"></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>ADDRESS :</b> </td>
+  <td><textarea name="address"></textarea></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>DATE OF BIRTH :</b></TD>
+  <td> <input type="date"/></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>AGE :</b></TD>
+  <td><input type="text" name="age" placeholder="AGE"></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>NATIONALITY :</b></TD>
+  <td><input type="text" name="national" placeholder="NATIONALITY"></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>EMAIL ID :</b></TD>
+  <td><input type="text" name="email" placeholder="EMAIL ID"></td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>ITEM :</b></TD>
+  <td><input type="checkbox" name="item">1
+  <input type="checkbox" name="item">2
+  <input type="checkbox" name="item">MORE THAN 2</td>
+<tr>
+<tr><tr>
+<tr>
+  <td><b>PAYMENT TYPE:</b></td>
+  <td> <select name="pay">
+        <option value="cash">CASH ON DELIVERY</option>
+        <option value="e-bill">NET BANKING</option>
+       </select></td>
+</tr>
+</center>
+
+</table>
+<br><br>
+<input type="submit" name="submit" value ="submit" onclick="valid()">
+<input type="reset" name="submit2"value="Reset"><br><br>
+<a href="main.html"><h2 class="second"><b>HOME</b></h2></a><br>
+
+</fieldset>
+</form>
+</center>
+
+
+<nav>
+<center>
+
+ <h1 class="third">CONTACT US</h1><br>
+ <BR></BR>
+
+<ul>
+ <LI></LI>
+ <li><a href="https://www.instagram.com/maybelline/?hl=en"><img src="instagram.jpg" height="50" width="50"></img></a></li>
+ <li><a href="https://www.facebook.com/maybellineindia/"><img src="fb.jpg" height="50" width="50"></img></a></li>
+ <li><a href="https://www.youtube.com/channel/UCJd0jl8aKCqxF94by-R_3ZQ"><img src="utube.jpg" height="50" width="50"></img></a></li>
+ <li><a href="https://twitter.com/maybellineindia?lang=en"><img src="twt.jpg" height="50" width="50"></img></a></li>
+ <li><a href="https://api.whatsapp.com/send/?phone=%2B918657867361&text=Hi&type=phone_number&app_absent=0"><img src="wp.jpg" height="50" width="50">
+</img></a></li>
+</ul>
+
+</center>
+<center><p color="white">This Project is developed by S.Kalaivani</p>
+
+
+
+
+
+
+

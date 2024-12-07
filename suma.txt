@@ -1,0 +1,24 @@
+<center><h1 class="first"><b>VIRTUAL BEAUTY STUDIO</b></h1></center>
+ <li><h1 class="second"><b>NEW COLLECTIONS</b></h1> </li>
+<h2><b>SHOP NEW BEAUTY AND MAKEUP PRODUCTS</b></h2>
+
+
+
+ul
+{
+ margin-left:10px;
+}
+
+
+<marquee behaviour="slide" direction="left">
+
+
+<marquee behaviour="slide" direction="left">
+<img src="ph2.jpg" height="300" width="300">
+<img src="ph3.jpg" height="300" width="300">
+<img src="ph4.jpg" height="300" width="300">
+<img src="ph5.jpg" height="300" width="300">
+</marquee>
+
+
+
