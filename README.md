@@ -8,9 +8,9 @@ Home
 ![Screenshot 2024-12-07 133002](https://github.com/user-attachments/assets/b02d470f-67d2-4778-a8c2-c8e2ef66dc26)
 About Us
 ![Screenshot 2024-12-07 133028](https://github.com/user-attachments/assets/cd0d463b-133b-436c-8898-3373cfdb76d7)
-Products
-![Screenshot 2024-12-07 133047](https://github.com/user-attachments/assets/20bda5a0-bf0a-445e-9c56-e74852281de8)
 
+![Screenshot 2024-12-07 133047](https://github.com/user-attachments/assets/20bda5a0-bf0a-445e-9c56-e74852281de8)
+Products
 ![Screenshot 2024-12-07 133107](https://github.com/user-attachments/assets/ff169b17-f143-4196-8e2d-3b31a58110c0)
 
 ![Screenshot 2024-12-07 133127](https://github.com/user-attachments/assets/01aaa17d-ce22-44c3-8225-64affd259fa8)
